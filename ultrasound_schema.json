@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "clinic": {
+    "name": "BS CAO BÁ SƠN - SIÊU ÂM 5D CHUYÊN SÂU",
+    "address": "HD57 Hải Đăng 9 - Vinhomes Ocean Park",
+    "hotline": "0967.275.799"
+  },
+  "patient": {
+    "ho_ten": "",
+    "ngay_sinh": "",
+    "gioi": "",
+    "ma_bn": "",
+    "dia_chi": "",
+    "chan_doan": ""
+  },
+  "pregnancy": {
+    "so_thai": 1,
+    "tuoi_thai_tuan": null,
+    "tuoi_thai_ngay": null,
+    "du_kien_sinh": "",
+    "cu_dong_thai": "(+)",
+    "ngoi_thai": "chưa cố định",
+    "fhr": null,
+    "vi_tri_rau": "",
+    "AFI": "",
+    "chieu_dai_co_tu_cung": null
+  },
+  "biometry": {
+    "CRL": null,
+    "BPD": null,
+    "HC": null,
+    "AC": null,
+    "FL": null,
+    "HL": null,
+    "Foot": null,
+    "EFW": null,
+    "EFW_percentile": null,
+    "EFW_method": "",
+    "NT": null,
+    "BOD": null,
+    "NBL": null,
+    "Vp": null,
+    "Cereb": null,
+    "CM": null
+  },
+  "anatomy": {
+    "duong_giua": "Bình thường",
+    "vac_trong_suot": "Bình thường",
+    "long_nguc_cot_song": "Bình thường",
+    "phoi": "Bình thường",
+    "thanh_bung_truoc": "Bình thường",
+    "tim_4_buong": "Cân xứng",
+    "vach_lien_that": "Bình thường",
+    "mach_mau_lon": "Bình thường",
+    "3VV": "Bình thường",
+    "da_day": "(+)",
+    "than": "(+)",
+    "bang_quang": "(+)",
+    "day_ron": "2 ĐM, 1 TM",
+    "cac_chi": "4 chi, mỗi chi 3 đoạn",
+    "tu_the_chi": "Bình thường"
+  },
+  "doppler": {
+    "UA_PI": null,
+    "MCA_PI": null,
+    "UtA_L_PI": null,
+    "UtA_R_PI": null,
+    "UA_other": "",
+    "MCA_other": ""
+  },
+  "other": {
+    "hinh_anh_khac": "",
+    "ghi_chu": ""
+  },
+  "conclusion": {
+    "ket_luan_1": "",
+    "ket_luan_2": "",
+    "bat_thuong": "",
+    "hen_kham_lai": ""
+  },
+  "images": []
+}

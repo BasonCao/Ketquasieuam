@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "modes": {
+    "12T": {
+      "label": "Mốc 12 tuần",
+      "show": [
+        "CRL",
+        "BPD",
+        "HC",
+        "BOD",
+        "NBL",
+        "NT",
+        "FHR",
+        "AFI",
+        "UtA_L_PI",
+        "UtA_R_PI"
+      ]
+    },
+    "HINH_THAI": {
+      "label": "Hình thái",
+      "show": [
+        "BPD",
+        "HC",
+        "AC",
+        "FL",
+        "HL",
+        "Foot",
+        "EFW",
+        "Vp",
+        "Cereb",
+        "CM",
+        "FHR",
+        "anatomy",
+        "AFI",
+        "chieu_dai_co_tu_cung"
+      ]
+    },
+    "TANG_TRUONG": {
+      "label": "Tăng trưởng",
+      "show": [
+        "BPD",
+        "HC",
+        "AC",
+        "FL",
+        "EFW",
+        "EFW_percentile",
+        "EFW_method",
+        "FHR",
+        "AFI",
+        "UA_PI",
+        "MCA_PI",
+        "UtA_L_PI",
+        "UtA_R_PI",
+        "chieu_dai_co_tu_cung"
+      ]
+    },
+    "TONG_HOP": {
+      "label": "Tổng hợp",
+      "show": [
+        "ALL"
+      ]
+    }
+  },
+  "conditional": [
+    {
+      "if": "mode == TANG_TRUONG",
+      "show": [
+        "EFW",
+        "EFW_percentile",
+        "EFW_method"
+      ]
+    },
+    {
+      "if": "dopplerEnabled == false",
+      "hide": [
+        "UA_PI",
+        "MCA_PI",
+        "UtA_L_PI",
+        "UtA_R_PI",
+        "UA_other",
+        "MCA_other"
+      ]
+    },
+    {
+      "if": "cervixEnabled == false",
+      "hide": [
+        "chieu_dai_co_tu_cung"
+      ]
+    }
+  ],
+  "defaults": {
+    "mode": "TONG_HOP",
+    "dopplerEnabled": true,
+    "cervixEnabled": true
+  }
+}
