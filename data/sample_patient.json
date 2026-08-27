@@ -1,0 +1,9 @@
+{
+  "ho_ten": "[ho_ten]",
+  "ngay_sinh": "[DD]/[MM]/[YYYY]",
+  "gioi": "[gioi]",
+  "ma_bn": "[ma_bn]",
+  "tuoi_thai_tuan": "[tuoi_thai_tuan]",
+  "tuoi_thai_ngay": "[tuoi_thai_ngay]",
+  "du_kien_sinh": "[du_kien_sinh]"
+}
